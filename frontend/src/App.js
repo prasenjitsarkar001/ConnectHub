@@ -9,7 +9,7 @@ import HomeComponent from './pages/home';
 import History from './pages/history';
 
 // Auth provider
-import { AuthProvider } from '../../../viedocall/frontend/src/contexts/AuthContext';
+import { AuthProvider } from '../contexts/AuthContext';
 
 function App() {
   return (
