@@ -14,7 +14,7 @@ import LockOutlinedIcon from '@mui/icons-material/LockOutlined';
 import Typography from '@mui/material/Typography';
 import { createTheme, ThemeProvider } from '@mui/material/styles';
 // Custom auth context (contains handleRegister & handleLogin)
-import { AuthContext } from '../../../../viedocall/frontend/src/contexts/AuthContext';
+import { AuthContext } from '../contexts/AuthContext';
 import { Snackbar } from '@mui/material';
 
 // Default MUI theme (can be customized)
