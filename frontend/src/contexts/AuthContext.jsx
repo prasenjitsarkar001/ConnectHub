@@ -3,15 +3,15 @@ import axios from "axios";
 import httpStatus from "http-status";
 import { createContext, useContext, useState } from "react";
 import { useNavigate } from "react-router-dom";
- import server from "../environment";
+import server from "../environment";
 
 // Create global AuthContext object
 export const AuthContext = createContext({});
 
 // Axios client instance for user-related API calls
 const client = axios.create({
-  // baseURL: "http://localhost:8000/api/v1/users"
-     baseURL: `${server}/api/v1/users` // All requests will be prefixed with this URL
+   //baseURL: "http://localhost:8000/api/v1/users"
+    baseURL: `${server}/api/v1/users` // All requests will be prefixed with this URL
 })
 
 export const AuthProvider = ({ children }) => {

@@ -16,7 +16,7 @@ import StopScreenShareIcon from '@mui/icons-material/StopScreenShare'
 import ChatIcon from '@mui/icons-material/Chat'
 import '../styles/videoComponent.module.css';
 // Import backend server URL
- import server from '../environment';
+import server from '../environment';
 
 // Server endpoint for socket.io
  const server_url = server;
